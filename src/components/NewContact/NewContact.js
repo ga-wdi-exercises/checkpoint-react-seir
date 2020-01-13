@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 function NewContact() {
-return(
-<h1>NewContact</h1>
-)
+    return (
+        <div>
+            <h1>New Contact</h1>
+        </div>
+    )
 }
 
 export default NewContact
