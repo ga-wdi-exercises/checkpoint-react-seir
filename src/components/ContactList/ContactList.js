@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from 'react'
+import Contact from '../Contact/Contact'
 
 export default class ContactList extends React.Component {
     constructor(props) {
@@ -7,12 +7,11 @@ export default class ContactList extends React.Component {
     }
 
     render() {
-        const contacts = this.props.contacts.map(contact => {
-            <Contact contact={contact} />
-        })
         return (
             <div className='contact-list'>
-                {contacts}
+                {this.props.contacts.map(contact => (
+                    <Contact contact={contact} />
+                ))}
             </div>
         )
     }
