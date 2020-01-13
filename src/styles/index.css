@@ -64,3 +64,14 @@ header nav a:last-of-type {
 .contact h3 {
   margin-top: 1.5rem;
 }
+
+.header-title {
+  display: inline-block;
+}
+
+.header-link {
+  text-decoration: none;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
