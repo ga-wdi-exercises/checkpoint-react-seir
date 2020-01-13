@@ -39,3 +39,4 @@ describe("Contact component:", () => {
     expect(component.find("input[name='profile_picture']").exists()).toBe(true);
   });
 });
+
