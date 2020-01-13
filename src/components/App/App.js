@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import header from '/.Header'
 import NewContact from '/.NewContact '
-import NewContact from '/.NewContact '
+import NewContact from '/.ContactList'
 import {
   BrowserRouter as Router,
   Switch,
